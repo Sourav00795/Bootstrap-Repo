@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.parentDiv{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.childDiv{
+    background-color: aliceblue;
+    padding: 10px;
+}
+.lmButton{
+    color: #171f46;
+    border: 1px solid #d7dfe9;
+}
+.sdButton{
+    background-color: #5752ab;
+    color: #ffffff;
+}
+h2{
+    color: #5752ab !important;
+    font-family: 'Bree Serif', serif;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}

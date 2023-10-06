@@ -1,0 +1,33 @@
+.parentDiv{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+.childDiv{
+    background-color: #ffffff;
+    margin-top: 500px;
+}
+.rmbutton{
+    background-color: #323f4b;
+    color: #ffffff;
+}
+h2{
+    color: #323f4b;
+}
+h4,p{
+    color: #7b8794;
+}
+
+@media screen and (max-width: 700px) {
+    h2{
+        color: #323f4b;
+        font-size: 18px;
+    }
+    h4,p{
+        color: #7b8794;
+        font-size: 12px;
+    }
+    .rmbutton{
+        font-size: 10px;
+    }
+}
